@@ -13,6 +13,7 @@
 		AA66720D22B4216600824252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA66720B22B4216600824252 /* Main.storyboard */; };
 		AA66720F22B4216700824252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA66720E22B4216700824252 /* Assets.xcassets */; };
 		AA66721222B4216700824252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA66721022B4216700824252 /* LaunchScreen.storyboard */; };
+		AAD27CE522B449CE00D37EA3 /* MeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD27CE422B449CE00D37EA3 /* MeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA66720E22B4216700824252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA66721122B4216700824252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA66721322B4216700824252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD27CE422B449CE00D37EA3 /* MeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA66720E22B4216700824252 /* Assets.xcassets */,
 				AA66721022B4216700824252 /* LaunchScreen.storyboard */,
 				AA66721322B4216700824252 /* Info.plist */,
+				AAD27CE422B449CE00D37EA3 /* MeterView.swift */,
 			);
 			path = Ghostfinder;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				AA66720A22B4216600824252 /* SecondViewController.swift in Sources */,
 				AA66720622B4216600824252 /* AppDelegate.swift in Sources */,
+				AAD27CE522B449CE00D37EA3 /* MeterView.swift in Sources */,
 				AA66720822B4216600824252 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT48V5L69E;
 				INFOPLIST_FILE = Ghostfinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT48V5L69E;
 				INFOPLIST_FILE = Ghostfinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
